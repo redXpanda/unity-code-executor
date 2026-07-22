@@ -309,6 +309,7 @@ UnityEngine.Debug.LogError(""[CodeExecutor] Hello World!"");",
         public static void Reload()
         {
             s_UserData = GetLocal();
+            GenerateMapping();
         }
 
         /// <summary>
